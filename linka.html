@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+<title>Linka</title>
+</head>
+<script>
+    function showHomePage() {
+        document.getElementById("home").style.display = "block";
+        document.getElementById("professionalbranding").style.display = "none";
+    }
+
+    function showProfessionalPage() {
+        document.getElementById("home").style.display = "none";
+        document.getElementById("professionalbranding").style.display = "block";
+    }
+</script>
+
+<body>
+    <div class="page-container">
+        <audio id="myAudio">
+            <source src="/audio/click.wav" type="audio/wav">
+          </audio>
+        <nav>
+            <img class="upskill-logo" src="/Assets/Upskill-logo.png" alt="Upskill Logo">
+            <ul class="navbar-pages">
+                <li class="page-link" onclick="showHomePage()">Home</li>
+                <li class="page-link" onclick="showProfessionalPage()">Professional branding</li>
+            </ul>
+            <div class="navbar-btn">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Signup</button>
+            </div>
+            <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+        <div class="container-fluid" id="home" >
+            <div class="row" >
+                <div class="col-sm-6 mb-4" >
+                    <p class="heading">Learn with
+                        <span>Experts</span> Anytime
+                        Anywhere</p>
+                    <p class="para">Are you ready to embark on a journey of knowledge and growth with a dedicated online private
+                        teacher? Look no further! <span>UpskillMeet</span> is here to connect you with experienced and qualified
+                        educators who are passionate about helping you achieve your learning goals.</p>
+                    <button class="join-btn">Join now</button>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <img class="img" src="/Assets/img7.png" alt="img" />
+                </div>
+            </div>
+            <div class="row" id="common-back">
+                <div class="col-sm-6 mb-4">
+                    <img class="img" src="/Assets/Group 3.png" alt="img" />
+                </div>
+                <div class="col-sm-6 mb-4" >
+                    <p class="heading-2">Discover Experts</p>
+                    <p class="sub-heading">Unlock your Chosen field.
+                        Connect with Gurus</p>
+                    <p class="para">Linka is committed to empowering learners to achieve their goals. Discover the perfect Mentor who
+                        will inspire, guide, and support you every step of the way.</p>
+                    <p class="sub-heading-2">Filter by Expertise:</p>
+                    <p class="para"> Narrow down your search by selecting specific expertise, ensuring you find the perfect match for
+                        your learning goals.</p>
+                    <p class="sub-heading-2">View Mentor Profiles:</p>
+                    <p class="para"> Dive into detailed profiles showcasing each teacher's qualifications, teaching philosophy, and
+                        experience.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 mb-4">
+                    <p class="heading-2">Book Sessions</p>
+                    <p class="sub-heading">Your path to
+                        personalized guidance.</p>
+                    <li class="para">Schedule one-on-one sessions with your chosen mentor.</li>
+                    <li class="para">Book sessions at times that work for you, ensuring a learning experience.</li>
+                    <li class="para">Progress at your own pace, guided by mentors who understand your unique path.</li>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <img class="img" src="/Assets/Group 4.png" alt="img" />
+                </div>
+            </div>
+            <div class="row" id="common-back">
+                <div class="col-sm-6 mb-4">
+                    <img class="img" src="/Assets/Group 5.png" alt="img" />
+                </div>
+                <div class="col-sm-6" >
+                    <P class="heading-2">Showcase your skills</P>
+                    <P class="sub-heading">Share your Talents
+                        Get paid for your Time</P>
+                    <P class="para">Set up a personalized profile showcasing your talents, experience, and the services you offer.
+                        Add multimedia content such as videos, images, or samples to highlight your skills</P>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-sm-6 mb-4">
+                    <p class="heading-2">Learn and Grow</p>
+                    <p class="sub-heading">Empower yourself
+                        Rule the day</p>
+                        <li class="para">Attend your scheduled sessions through our user-friendly online platform.</li>
+                        <li class="para">Receive personalized guidance and support from your dedicated Mentor.</li>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <img class="img" src="/Assets/Group 6.png" alt="img"/>
+                </div>
+            </div>
+        </div> 
+
+         <div class="container-fluid" id="professionalbranding">
+            <div class="container-brand">
+                <div class="brand-image">
+                    <img class="img-3" src="/Assets/img10.png" />
+                </div>
+                <div class="brand-img-background">
+                    <img class="background" src="/Assets/img9.png" />
+                </div>
+                <div class="brand-text">
+                    <h1 class="brand-heading">
+                        Professional Branding
+                    </h1>
+                    <h4 class="brand-subheading">Professional Branding goes beyond a resume. it's a strategic approach
+                        to managing and marketing your
+                        unique identity.</h4>
+                </div>
+            </div>
+
+            <div class="branding">
+                <div class="branding-flex-1">
+                    <img class="icon-1" src="/Assets/icon-3.png" />
+                    <h1 class="heading-2">Building Your Brand</h1>
+                    <p class="para">Continuously enhance your skills and stay updated with industry trends. Showcase
+                        your growth and expertise.</p>
+                </div>
+                <div class="branding-flex-2">
+                    <img class="icon-2" src="/Assets/icon-1.png" />
+                    <h1 class="heading-2">Be a Brand Ambassador</h1>
+                    <p class="para">Every interaction is an opportunity to reinforce your brand. Consistently exhibit
+                        professionalism, integrity, and expertise.</p>
+                </div>
+                <div class="branding-flex-3">
+                    <img class="icon-3" src="/Assets/icon-2.png" />
+                    <h1 class="heading-2">Target Audience</h1>
+                    <p class="para">Identify your target audience – the professionals, companies, or communities you
+                        want to connect with. Tailor your brand to resonate with their needs and expectations.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img" src="/Assets/img12.png" alt="img" />
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <p class="heading-2">Professional Branding </p>
+                    <p class="para"> Present yourself consistently across various platforms – resume, LinkedIn, business cards, etc.
+                        Ensure a cohesive visual and messaging strategy.Clearly define what sets you apart. Highlight
+                        your unique skills, experiences, and qualities that make you valuable in your professional
+                        field.</p>
+                    <p class="para"> Leverage social media and professional networks to build a strong online presence. Regularly
+                        update profiles with achievements, projects, and endorsements.A strong professional brand
+                        enhances your visibility and credibility, leading to better career opportunities and
+                        advancement.</p>
+                    <p class="para"> It facilitates effective networking, making it easier for others to understand your strengths
+                        and connect with you.Design business cards, email signatures, and other branding tools that
+                        reflect your personal brand. Make sure they align with your visual identity and messaging.</p>
+                    <div class="li-sub-h">
+                        <div >
+                            <li>Consistent Image</li>
+                            <li>Unique Value Proposition (UVP)</li>
+                            <li>Online Presence</li>
+                        </div>
+                        <div >
+                            <li>Consistent Branding</li>
+                            <li>Career Advancement</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 mb-4">
+                    <p class="heading-2">Build your brand </p>
+                    <p class="para"> Reflect on your values, strengths, and passions. Understand what sets you apart and what you
+                        want to be known for in your professional life.</p>
+                    <p class="sub-heading-2">Define Your Mission and Goals</p>
+                    <li class="para">Craft a clear and concise mission statement for your career. Identify your long-term goals and
+                        the impact you want to make in your field.</li>
+                    <p class="sub-heading-2">Identify Your Target Audience</p>
+                    <li class="para">Determine the audience you want to reach—colleagues, potential employers, clients, etc. Tailor
+                        your brand to resonate with their needs and expectations.</li>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <img class="img" src="/Assets/img15.png" alt="img"/>
+                </div>
+            </div>
+        </div> 
+
+        <div class="connect">
+            <div class="connect-flex">
+               
+                <p class="c-w-s-p">connect with us on social media</p>
+                <img class="read-icon" src="/Assets/image3.png"/>
+            </div>
+            <img class="telegram-icon" src="/Assets/image4.png">
+        </div> 
+
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-4">
+                    <img class="footer-icon" src="/Assets/Upskill-white.png"/>
+                    </div>
+                <div class="col-4 ">
+                    <p class="foot-page">Pages</p>
+                    <p class="foot-p">Home</p>
+                    <p class="foot-p">About Us</p>
+                    <p class="foot-p">Contact Us</p>
+                </div>
+    
+                <div class="col-4 ">
+                    <p class="foot-page">Contact Us</p>
+                    <p class="foot-p">Help</p>
+                    <p class="foot-p">Terms & conditions</p>
+                    <p class="foot-p">Privacy Policy</p>
+                </div>
+            </div>
+            <div class="row p-0">
+                <hr>
+                <p class="copy-right">Linka private limited. &copy; Copyright. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menu = document.querySelector(".menu");
+            const menulist = document.querySelector(".navbar-pages");
+            const menulist2 = document.querySelector(".navbar-btn");
+            var menubutton = document.getElementsByClassName(".menu");
+            var audio = document.getElementById("myAudio");
+
+
+            menu.addEventListener("click", () => {
+                menulist.classList.toggle('showMenu');
+                menulist2.classList.toggle('showMenu');
+                audio.play();
+            });
+        });
+    </script>
+    <script>
+        function setDynamicLineHeight(className, baseFontSize) {
+            const elements = document.querySelectorAll('.' + className); 
+            elements.forEach(element => {
+                element.style.fontSize = baseFontSize + 'vw';
+            });
+        }
+        setDynamicLineHeight('para', 1.3); 
+    </script>
+    <script>
+        let baseFontSize = 1.3; 
+
+        function setBaseFontSize(size, className) {
+            const elements = document.querySelectorAll('.' + className);
+            baseFontSize = size;
+            elements.forEach(element => {
+                element.style.fontSize = baseFontSize + 'vw';
+            });
+        }
+
+        function adjustFontSize() {
+            const screenWidth = window.innerWidth;
+
+            if (screenWidth >= 1200) {
+                setBaseFontSize(1.3, 'para');
+            } else if (screenWidth >= 992) {
+                setBaseFontSize(1.5, 'para');
+            } else if (screenWidth >= 768) {
+                setBaseFontSize(1.4, 'para');
+            } else {
+                setBaseFontSize(1.3, 'para'); 
+            }
+        }
+        adjustFontSize();
+        setInterval(adjustFontSize, 1000); 
+    </script>
+   
+</body>
+
+</html>
